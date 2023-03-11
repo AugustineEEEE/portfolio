@@ -1,0 +1,137 @@
+body {
+    background-color: #1B1B1B;
+    font-family: poppins;
+    min-height: 100vh;
+    
+}
+
+.navBar {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    align-items: center;
+   
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 89px;
+}
+h2 {
+    font-size: 50px;
+    color: white;
+}
+h3 {
+    
+}
+h4 {
+    color: white;
+    font-size: 42px;
+}
+
+.spyder {
+    color: #ED1C24;
+}
+
+.logoAe {
+    display: flex;
+    font-size: 80px;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 10px;
+}
+
+.lastName {
+    color: #242424;
+    margin-top: -39px;
+}
+
+.myName {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.mainSection {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 5vw;
+    margin-top: 100px;
+}
+
+.stickyFooter {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 100%;
+}
+
+.projectsFooter {
+    color: #E8C033;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+a:visited {
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+
+a:active {
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
+@media only screen and (min-width: 1900px) {
+    h1 {
+            margin: 0;
+            padding: 0;
+            color: white;
+            font-size: 120px;
+        }
+    
+        h2 {
+            font-size: 70px;
+            color: white;
+        }
+    
+        h3 {}
+    
+        h4 {
+            color: white;
+            font-size: 82px;
+        }
+    
+        .spyder {
+            color: #ED1C24;
+        }
+    
+        .logoAe {
+            display: flex;
+            font-size: 80px;
+            margin: 0;
+            padding: 0;
+            justify-content: center;
+            align-items: center;
+        }
+}
